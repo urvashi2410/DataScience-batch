@@ -20,6 +20,7 @@
 # a = '34'
 # b = '56'
 # print(a+b)
+# 3456 
 
 # conditional statement 
 # age = 12
@@ -64,18 +65,18 @@
 
 # nested conditional statements 
 
-# age = 23
-# isVoter = True   
+age = 23
+isVoter = True    
 
-# if age == 18:
-#     if isVoter == True:
-#         print('you can vote')
-# elif age > 18:
-#     if isVoter == True:
-#         print('You can vote elif ')
-#     print('You cannot vote elif')
-# else:
-#     print('You cannot vote')
+if age == 18:
+    if isVoter == True:
+        print('you can vote')
+elif age > 18:
+    if isVoter == True:
+        print('You can vote elif ')
+    print('You cannot vote elif')
+else:
+    print('You cannot vote')
 
 
 # loops 
@@ -102,6 +103,7 @@
 
 # i = 0- by default 
 
+# print(range(1, 10))
 
 # for i in range(10, 0, -3):
 #     print(i)
@@ -140,6 +142,7 @@
 
 # l[2] = 
 
+# l[3]
 # i = 0, 1, ...... 8
 # l[i] = l[0] = 11 
 # for i in range(len(l)):
